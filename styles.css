@@ -1,0 +1,34 @@
+#right{
+    height: 0px;
+    width: 0px;
+    float: right;
+    background-color: #3e3f43;
+    position: relative;
+    animation: ra 5s infinite;
+    border-radius: 50px;
+}
+
+@keyframes ra{
+    from {top: 0px;}
+    to {top: 600px;}
+    
+}
+
+#left{
+    float: left;
+    height: 0px;
+    width: 0px;
+    background-color: #3e3f43;
+    position: relative;
+    animation: rb 5s infinite;
+    border-radius: 50px;
+}
+
+@keyframes rb{
+    from {top: 0px;}
+    to {top: 600px;}
+    
+}
+p{
+    color: #515358;
+}
